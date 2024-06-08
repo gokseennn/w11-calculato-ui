@@ -6,7 +6,7 @@
     top: 20%;
     box-shadow: 2px 2px 10px 4px #ddd;
     border-radius: 6px;
-
+    background-color: #f3f3f3
 }
 
 .header {
@@ -21,8 +21,43 @@
 }
 
 .hide_icon {
+    width: 40px;
+    height: 30px;
     display: flex;
     justify-content: end;
+}
+
+.hide_icon2 {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 12px;
+    height: 12px;
+}
+
+.hide_icon3 {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 12px;
+    height: 12px;
+}
+
+.hide_icon3:hover {
+    color: #ffffff;
+}
+
+.icon_div_header3 {
+    align-items: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+}
+
+.icon_div_header3:hover {
+    cursor: pointer;
+    background-color: #c52a1b;
+
 }
 
 .icon_div_header {
@@ -34,8 +69,9 @@
 }
 
 .icon_div_header:hover {
-    background-color: #f3f3f3;
+    background-color: #dbdbdb;
     cursor: pointer;
+
 }
 
 .body_header1 {
@@ -62,7 +98,9 @@
     margin: 0px;
     padding-top: 12px;
     line-height: 0px;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3a3a3a;
 
 }
 
@@ -98,8 +136,10 @@
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
+    padding-top: 3px;
+    padding-left: 4px;
 }
 
 .numbers {
@@ -162,10 +202,7 @@
     background-color: #f0f0f0;
 }
 
-.hide_icon {
-    width: 20px;
-    margin: 4px;
-}
+
 
 .body_icon img {
     width: 20px;
