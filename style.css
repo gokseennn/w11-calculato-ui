@@ -1,6 +1,6 @@
 .main {
     width: 349px;
-    height: 660px;
+    height: 580px;
     position: absolute;
     left: 40%;
     top: 20%;
@@ -160,7 +160,7 @@
 }
 
 .numbers {
-    height: 175px;
+    height: 125px;
     display: flex;
     text-align: end;
     align-items: end;
@@ -185,8 +185,6 @@
     height: 30px;
     align-items: center;
     justify-content: center;
-    font-weight: 100;
-    font-size: 16px;
 }
 
 .text_button_item2 {
@@ -212,23 +210,57 @@
     padding-top: 2px;
 }
 
-.grid-div div {
+.item1 {
+    box-shadow: 0.5px 1px 1px 1px #ddd;
+    background-color: #f9f9f9;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    font-size: 18px;
+    height: 20px;
+    width: 50px;
+    border-radius: 4px;
+    margin: 2px;
+    font-family: Arial, sans-serif;
+}
+
+.item2 {
     box-shadow: 0.5px 1px 1px 1px #ddd;
     background-color: #ffffff;
     justify-content: center;
     text-align: center;
     padding: 16px;
     font-size: 18px;
-    height: 25px;
+    height: 20px;
     width: 50px;
     border-radius: 4px;
     margin: 2px;
+    font-family: Arial, sans-serif;
+
 }
 
-.grid-div div:hover {
-    background-color: #f0f0f0;
+.item3 {
+    box-shadow: 0.5px 1px 1px 1px #ddd;
+    background-color: #0167c0;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    font-size: 18px;
+    height: 20px;
+    width: 50px;
+    border-radius: 4px;
+    margin: 2px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
 }
 
+.item1:hover {
+    background-color: #f6f6f6;
+}
+
+.item2:hover {
+    background-color: #fcfcfc;
+}
 
 
 .body_icon img {
